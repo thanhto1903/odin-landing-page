@@ -23,3 +23,68 @@ textarea,
 select {
   font: inherit;
 }
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-container {
+  background-color: #1f2937;
+  padding: 7px 200px 50px 200px;
+}
+
+.navigation-links {
+  display: flex;
+  /* justify-content: space-evenly; */
+  gap: 20px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#logo a {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.hero-container {
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  gap: 40px;
+}
+
+.left-side,
+.right-side {
+  flex: 1;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side {
+  display: flex;
+  flex: 1 1 0;
+  height: 100%;
+}
+
+.img-placeholder {
+  background-color: gray;
+  flex: 1 1 0;
+}
