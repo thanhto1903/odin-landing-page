@@ -41,6 +41,9 @@ ol {
 .header-container {
   background-color: #1f2937;
   padding: 7px 200px 50px 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
 .navigation-links {
@@ -62,8 +65,9 @@ ol {
 }
 
 .hero-container {
+  box-sizing: border-box;
   display: flex;
-  height: 150px;
+  /* min-height: 150px; */
   justify-content: center;
   gap: 40px;
 }
@@ -76,15 +80,44 @@ ol {
 .left-side {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 
 .right-side {
   display: flex;
   flex: 1 1 0;
-  height: 100%;
 }
 
 .img-placeholder {
   background-color: gray;
   flex: 1 1 0;
+  /* min-height: 200px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#sign-up-btn {
+  box-sizing: border-box;
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  flex: 0 1 0;
+  min-width: 150px;
+  padding: 10px 30px 10px 30px;
+  font-family: "Roboto";
+  font-weight: 700;
+  border-radius: 12px;
+}
+
+.hero-main-txt {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero-second-txt {
+  font-size: 18px;
+  color: #f9faf8;
 }
