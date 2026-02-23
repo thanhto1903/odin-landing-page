@@ -40,7 +40,7 @@ ol {
 
 .header-container {
   background-color: #1f2937;
-  padding: 7px 200px 50px 200px;
+  padding: 7px 300px 100px 300px;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -115,9 +115,49 @@ ol {
   font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
+  margin: 0;
 }
 
 .hero-second-txt {
   font-size: 18px;
   color: #f9faf8;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+
+li div {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+
+.img-box {
+  min-width: 150px;
+  min-height: 150px;
+  flex: 1;
+}
+
+div h2 {
+  margin: 30px;
+}
+
+.column-box {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
 }
