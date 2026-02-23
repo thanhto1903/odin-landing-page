@@ -161,3 +161,31 @@ div h2 {
   text-align: center;
   gap: 10px;
 }
+
+.quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px 100px 0px;
+  background-color: #e5e7eb;
+}
+
+.quote-box {
+  flex: 1 1 1;
+  width: 720px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#quote-txt {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+div span {
+  align-self: flex-end;
+  font-weight: bold;
+}
