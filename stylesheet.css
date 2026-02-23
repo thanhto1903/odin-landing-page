@@ -80,12 +80,13 @@ ol {
 .left-side {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 7px;
 }
 
 .right-side {
   display: flex;
   flex: 1 1 0;
+  margin: 0;
 }
 
 .img-placeholder {
@@ -188,4 +189,28 @@ div h2 {
 div span {
   align-self: flex-end;
   font-weight: bold;
+}
+
+.action-container {
+  background-color: #3882f6;
+  color: white;
+  margin: 100px 300px 100px 300px;
+  display: flex;
+  padding: 40px 100px 40px 100px;
+  /* justify-content: space-around; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+
+#bold {
+  font-weight: 700;
+}
+
+.left-side p {
+  color: #e5e7eb;
+}
+
+.right-side-btn #sign-up-btn {
+  border: 2px solid white;
 }
