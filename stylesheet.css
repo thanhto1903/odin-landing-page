@@ -131,11 +131,18 @@ ol {
   margin-bottom: 100px;
 }
 
+.info-container h2 {
+  font-family: 700;
+  font-size: 32px;
+  margin: 50px;
+}
+
 .box-container {
   display: flex;
   justify-content: center;
   gap: 40px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 li div {
@@ -147,10 +154,6 @@ li div {
   min-width: 150px;
   min-height: 150px;
   flex: 1;
-}
-
-div h2 {
-  margin: 30px;
 }
 
 .column-box {
@@ -213,4 +216,13 @@ div span {
 
 .right-side-btn #sign-up-btn {
   border: 2px solid white;
+}
+
+footer {
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px 40px 0px;
 }
